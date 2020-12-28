@@ -1,0 +1,48 @@
+.header {
+  padding: 2rem;
+
+  > div {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 80px;
+    vertical-align: top;
+    margin: 0.2rem;
+
+    &:first-child {
+      background-color: #a9a9a9;
+    }
+
+    &:nth-child(2) {
+      background-color: #ffd246;
+    }
+
+    &:nth-child(3) {
+      background-color: #78d237;
+    }
+
+    &:nth-child(4) {
+      background-color: #235e0a;
+    }
+
+    &:nth-child(5) {
+      background-color: #2d73f5;
+    }
+
+    &:nth-child(6) {
+      background-color: #0f3885;
+    }
+
+    &:nth-child(7) {
+      background-color: #fc2b1d;
+    }
+
+    &:last-child {
+      background-color: #9f0b00;
+    }
+  }
+}
