@@ -1,0 +1,9 @@
+.list {
+  padding: 2rem;
+  border: 2px dashed lightgray;
+
+  > div {
+    display: inline-block;
+    margin: 0.2rem;
+  }
+}
