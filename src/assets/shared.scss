@@ -1,3 +1,15 @@
 * {
   font-family: sans-serif;
+
+  button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
 }
