@@ -6,32 +6,36 @@ import cn from 'classnames';
 console.log(Style)
 
 export default function List() {
+    function onClickButton() {
+        console.log('onClickButton');
+    }
+
     return (
         <div className={cn(Style.list)}>
-            <div>
+            <button onClick={onClickButton}>
                 <ImNeutral2 size={80} color={'#a9a9a9'} />
-            </div>
-            <div>
+            </button>
+            <button>
                 <ImSmile2 size={80} color={'#ffd246'} />
-            </div>
-            <div>
+            </button>
+            <button>
                 <ImConfused2 size={80} color={'#78d237'} />
-            </div>
-            <div>
+            </button>
+            <button>
                 <ImWondering2 size={80} color={'#235e0a'} />
-            </div>
-            <div>
+            </button>
+            <button>
                 <ImSad2 size={80} color={'#2d73f5'} />
-            </div>
-            <div>
+            </button>
+            <button>
                 <ImCrying2 size={80} color={'#0f3885'} />
-            </div>
-            <div>
+            </button>
+            <button>
                 <ImAngry2 size={80} color={'#fc2b1d'} />
-            </div>
-            <div>
+            </button>
+            <button>
                 <ImFrustrated2 size={80} color={'#9f0b00'} />
-            </div>
+            </button>
         </div>
     );
 }
