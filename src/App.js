@@ -11,7 +11,7 @@ function App() {
         <Header></Header>
         <BrowserRouter>
             <Link to="/">Home</Link>
-            <Link to="/list">목록</Link>
+            <Link to="/list">List</Link>
 
             <Route exact path="/" component={Home} />
             <Route path="/list" component={List} />
