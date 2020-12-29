@@ -1,11 +1,12 @@
 import React from 'react';
 import Style from 'components/Header.module.scss';
+import cn from 'classnames';
 
 console.log(Style)
 
 export default function Header() {
     return (
-        <header className={`${Style.header}`}>
+        <header className={cn(Style.header)}>
             <div>"</div>
             <div>오</div>
             <div>늘</div>

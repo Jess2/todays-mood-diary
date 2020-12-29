@@ -1,10 +1,13 @@
 import React from 'react';
 import { ImSmile2, ImSad2, ImAngry2, ImConfused2, ImNeutral2, ImWondering2, ImFrustrated2, ImCrying2 } from 'react-icons/im';
-import Style from 'components/List.module.scss'
+import Style from 'components/List.module.scss';
+import cn from 'classnames';
+
+console.log(Style)
 
 export default function List() {
     return (
-        <div className={`${Style.list}`}>
+        <div className={cn(Style.list)}>
             <div>
                 <ImNeutral2 size={80} color={'#a9a9a9'} />
             </div>
